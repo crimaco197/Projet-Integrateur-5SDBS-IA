@@ -2,7 +2,7 @@ import joblib
 import numpy as np
 
 # Cargar el modelo y definir los nombres de las características
-model_path = "./RandomForest_BestModel_8597.joblib"
+model_path = "./RandomForest_BestModel_8827.joblib"
 model = joblib.load(model_path)
 
 feature_names = [
@@ -15,7 +15,6 @@ feature_names = [
 # Diccionario para traducir las predicciones
 prediction_labels = {
     1: "legitimate",
-    0: "suspicious",
     -1: "malicious"
 }
 
